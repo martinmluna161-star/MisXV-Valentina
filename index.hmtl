@@ -551,13 +551,13 @@
        CONFIGURACIÓN RÁPIDA
        Reemplazá únicamente estas constantes con tus URLs reales.
        ========================================================== */
-    const GOOGLE_SHEETS_SCRIPT_URL = "URL_DE_TU_SCRIPT_AQUI";
-    const ALBUM_URL = "URL_DE_TU_ALBUM_AQUI";
+    const GOOGLE_SHEETS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxfqI6yeSxD8JctpI2m-Nb0pZVNuYiAY8v7e_wNnuj4Rq-DhwEwQkKOzKkEDuawGV84Yg/exec";
+    const ALBUM_URL = "https://drive.google.com/drive/folders/1BP-dpI33QD72rR1eU1Gx4m6Mr6ZTJS5v?usp=sharing";
 
     // Se usan búsquedas de Google Maps para que la landing funcione aun sin coordenadas exactas.
     // Si querés, podés reemplazarlas por los links exactos de "Compartir" de Google Maps.
-    const PARTY_MAP_URL = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("Salón Cardiff Monseñor D'Andrea 322 San Luis Argentina");
-    const MASS_MAP_URL  = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("Parroquia San Roque 9 de Julio 1733 Barrio Estación San Luis Argentina");
+    const PARTY_MAP_URL = "https://maps.app.goo.gl/wq4GvUN2prChkSbB7" + encodeURIComponent("Salón Cardiff Monseñor D'Andrea 322 Villa Mercedes - San Luis Argentina");
+    const MASS_MAP_URL  = "https://maps.app.goo.gl/eMoMjLS36Cct3VUQA" + encodeURIComponent("Parroquia San Roque 9 de Julio 1733 Barrio Estación Villa Mercedes - San Luis Argentina");
 
     // Hora de inicio de la fiesta: 19/12/2026 21:00 Argentina (UTC-3)
     const EVENT_DATE = new Date("2026-12-19T21:00:00-03:00");
